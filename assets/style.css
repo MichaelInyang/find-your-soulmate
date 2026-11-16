@@ -1,0 +1,261 @@
+header {
+    font-family: Calibri;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px red solid;
+}
+
+p {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: 1px rgb(240, 72, 100) solid;
+}
+
+button {
+    background-color: rgb(140, 15, 27);
+    border: none;
+    color: #dc4385;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    cursor: pointer;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    ;
+    height: 90px;
+    text-decoration: none;
+    border: 1px red solid;
+}
+
+li a:hover {
+    color: rgb(140, 15, 27);
+}
+
+p {
+    font-family: Calibri;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Card Grid */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #8e2458;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+
+nav {
+    background-color: #42152e;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffb6d5;
+}
+
+
+section {
+    padding: 45px 8%;
+}
+
+section h2 {
+    color: #8e2458;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+section>p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.contact-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-info,
+.contact-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 260px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3,
+.contact-form h3 {
+    color: #8e2458;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    display: inline-block;
+    background-color: #8e2458;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #42152e;
+}
+
+
+#faq {
+    background-color: #fff0f6;
+}
+
+.faq-container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.faq-container details {
+    background-color: white;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 7px;
+    border-left: 4px solid #8e2458;
+}
+
+.faq-container summary {
+    color: #8e2458;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-container de {
+    padding: 25px;
+}
+
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    div.me {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+        padding: 15px;
+
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
