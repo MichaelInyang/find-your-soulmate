@@ -242,7 +242,14 @@ section>p {
         font-size: 27px;
     }
 
-    div.me {
+    ul {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+div.me {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -252,10 +259,3 @@ section>p {
         padding: 15px;
 
     }
-
-    ul {
-        display: flex;
-        flex-direction: row;
-
-    }
-}
