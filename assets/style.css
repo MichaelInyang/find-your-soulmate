@@ -256,6 +256,14 @@ div.me {
         align-items: flex-start;
         gap: 20px;
         width: 100%;
-        padding: 15px;
-
+        padding: 15px; 
     }
+
+     h2.mi{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                color:blueviolet;
+            }
+            p.my{
+                color:rgb(76, 180, 78);
+            }
