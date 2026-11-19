@@ -267,3 +267,11 @@ div.me {
             p.my{
                 color:rgb(76, 180, 78);
             }
+
+div.mo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+}
