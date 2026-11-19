@@ -11,10 +11,21 @@ p {
     background-color: 1px rgb(240, 72, 100) solid;
 }
 
+div.design {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: lighter;
+        text-decoration: #8e2458;
+        display: inline-block;
+        flex-direction: column-reverse;
+        margin: 10 px;
+        padding: 20 px;
+    }
+
 button {
-    background-color: rgb(140, 15, 27);
+    background-color: rgb(15, 140, 75);
     border: none;
-    color: #dc4385;
+    color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -252,6 +263,7 @@ section>p {
         padding: 15px;
 
     }
+
 
     ul {
         display: flex;
