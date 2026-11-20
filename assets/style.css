@@ -51,13 +51,10 @@ p {
 
 h2 {
     font-weight: lighter;
-}
+} 
 
-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
+
 
 
 .card {
@@ -107,7 +104,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #222;
     text-decoration: none;
     margin: 15px;
     font-weight: bold;
@@ -196,9 +193,9 @@ section>p {
 }
 
 
- {
+ /*{
     background-color: #fff0f6;
-}
+}*/
 
 
 
