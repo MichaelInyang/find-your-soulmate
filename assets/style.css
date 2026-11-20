@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Exile;
+    src: url("Exile-Regular.ttf"); 
+}
 header {
     font-family: Calibri;
     display: flex;
@@ -52,10 +56,13 @@ h2 {
     font-weight: lighter;
 }
 
-div {
+.logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+.logo-title {
+ font-family: Exile;
 }
 
 /* Card Grid */
@@ -91,6 +98,8 @@ header {
     color: white;
     text-align: center;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -100,7 +109,6 @@ header h1 {
 
 
 nav {
-    background-color: #42152e;
     text-align: center;
     padding: 15px;
 }
