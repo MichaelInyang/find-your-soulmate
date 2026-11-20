@@ -13,7 +13,7 @@ p {
 }
 
 button {
-    background-color: rgb(140, 15, 27);
+    background-color: rgba(224, 157, 164, 0.568);
     border: none;
     color: #dc4385;
     padding: 10px 20px;
@@ -38,11 +38,11 @@ ul {
     ;
     height: 90px;
     text-decoration: none;
-    border: 1px red solid;
+    
 }
 
 li a:hover {
-    color: rgb(140, 15, 27);
+    color: rgb(156, 95, 101);
 }
 
 p {
@@ -85,7 +85,7 @@ body {
 
 
 header {
-    background-color: #8e2458;
+    background-color: rgb(204, 49, 49);
     color: white;
     text-align: center;
     padding: 30px;
@@ -189,7 +189,7 @@ section>p {
 }
 
 .contact-form button:hover {
-    background-color: #42152e;
+    background-color: #560f36;
 }
 
 
