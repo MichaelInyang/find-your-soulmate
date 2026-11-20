@@ -330,14 +330,7 @@ div.me {
 div.mo {
         display: flex;
         flex-direction: row;
-<<<<<<< HEAD
         justify-content: space-between;
         align-items: flex-start;
         gap: 20px;
-=======
-
-    }
-
-
->>>>>>> origin/feat/explore
 }
