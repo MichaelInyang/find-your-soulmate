@@ -1,5 +1,8 @@
-header{
-
+@font-face {
+    font-family: Exile;
+    src: url("Exile-Regular.ttf"); 
+}
+header {
     font-family: Calibri;
     display: flex;
     flex-direction: row;
@@ -56,6 +59,14 @@ h2 {
 
 
 
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.logo-title {
+ font-family: Exile;
+}
 
 .card {
     display: flex;
@@ -89,6 +100,8 @@ header {
     color: white;
     text-align: center;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -98,7 +111,6 @@ header h1 {
 
 
 nav {
-    background-color: #42152e;
     text-align: center;
     padding: 15px;
 }
@@ -356,4 +368,12 @@ footer {
     .contact h1 {
         font-size: 26px;
     }
+}
+
+div.language-dropdown {
+    display: none;
+}
+
+li.language-button:hover div {
+    display: block;
 }
