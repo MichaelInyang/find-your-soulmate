@@ -59,7 +59,7 @@ div {
     justify-content: space-between;
 }
 
-/* Card Grid */
+
 .card {
     display: flex;
     flex-direction: column;
@@ -323,15 +323,15 @@ details p {
 }
 
 .contact .contact-btn {
-    background-color: #a8c8df;
+    background-color: #4986b2;
     color: black;
 }
 
 
 footer {
     text-align: center;
-    background-color: #222;
-    color: white;
+    background-color: #9f6666;
+    color: rgb(78, 36, 36);
     padding: 25px;
 }
 
