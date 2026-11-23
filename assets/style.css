@@ -9,12 +9,6 @@ header {
     border-bottom: 1px red solid;
 }
 
-p {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: 1px rgb(240, 72, 100) solid;
-}
-
 div.design {
         font-family: sans-serif;
         font-style: normal;
@@ -57,10 +51,6 @@ ul {
 
 li a:hover {
     color: rgb(140, 15, 27);
-}
-
-p {
-    font-family: Calibri;
 }
 
 h2 {
@@ -281,12 +271,6 @@ section>p {
     border-bottom: 1px red solid;
 }
 
-p {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: 1px rgb(240, 72, 100) solid;
-}
-
 button {
     background-color: rgba(224, 157, 164, 0.568);
     border: none;
@@ -318,10 +302,6 @@ ul {
 
 li a:hover {
     color: rgb(156, 95, 101);
-}
-
-p {
-    font-family: Calibri;
 }
 
 h2 {
@@ -546,4 +526,32 @@ div.language-dropdown {
 
 li.language-button:hover div {
     display: block;
+}
+
+/*profile-section*/
+div.profile-section:nth-child(2) > div {
+    display: flex;
+    flex-direction: row;
+    width: 13%;
+}
+div.profile-section:nth-child(2) > div > * {
+    flex: 1;
+}
+@media screen and (orientation: landscape) and (min-width: 425px) {
+    div.profile {
+        width: 90vw;
+        margin: auto;
+    }
+}
+@media screen and (orientation: landscape) and (min-width: 768px) {
+    div.profile {
+        width: 60vw;
+        margin: auto;
+    }
+}
+@media screen and (orientation: landscape) and (min-width: 1024px) {
+    div.profile {
+        width: 40vw;
+        margin: auto;
+    }
 }
