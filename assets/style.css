@@ -58,17 +58,14 @@ h2 {
 
 .logo {
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
     justify-content: space-between;
 
-=======
     flex-direction: row;
     gap: 20px;
 }
 .logo-title {
  font-family: Exile;
->>>>>>> origin/feat/header
 }
 
 
@@ -325,12 +322,6 @@ section>p {
         display: flex;
         flex-direction: row;
 
-<<<<<<< HEAD
-    }
-
-
-}
-=======
     }  
 }
 
@@ -341,4 +332,3 @@ div.language-dropdown {
 li.language-button:hover div {
     display: block;
 }
->>>>>>> origin/feat/header
