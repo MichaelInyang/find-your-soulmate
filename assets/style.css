@@ -259,10 +259,11 @@ section>p {
 
     }
 
-    .footer{
-        background-color:#8e2458 ;
+.footer{
+        background-color:rgb(204, 49,49) ;
         color: white;
         text-align:center;
         padding:15px;
+        
     }
 }
