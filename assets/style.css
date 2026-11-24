@@ -343,37 +343,3 @@ footer {
     color: rgb(78, 36, 36);
     padding: 25px;
 }
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .hero h1 {
-        font-size: 35px;
-    }
-
-    .faq-container {
-        width: 90%;
-    }
-
-    .contact h1 {
-        font-size: 26px;
-    }
-}
-
-div.language-dropdown {
-    display: none;
-}
-
-li.language-button:hover div {
-    display: block;
-}
