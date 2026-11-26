@@ -90,7 +90,7 @@ h2 {
 body {
     font-family: Arial, sans-serif;
     background-color:pink;
-    color: #333;
+    color: pink;
     line-height: 1.6;
 }
 
@@ -154,7 +154,7 @@ section>p {
 
 .contact-info,
 .contact-form {
-    background-color: pink;
+    background-color:pink;
     padding: 25px;
     border-radius: 10px;
     flex: 1;
@@ -333,9 +333,4 @@ details p {
 }
 
 
-footer {
-    text-align: center;
-    background-color: #9f6666;
-    color: rgb(78, 36, 36);
-    padding: 25px;
-}
+
