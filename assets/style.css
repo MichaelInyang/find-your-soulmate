@@ -342,3 +342,24 @@ div#login-section form {
     max-width: 60vw;
 }
 }
+/* end login page */
+
+
+
+/* about us */
+#about-us-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.about-us-content {
+    display: flex;
+}
+#about-us-text-container {
+    flex: 3;
+}
+#about-us-image-container {
+    flex: 2;
+    contain: size;
+}
+/* end about us */
