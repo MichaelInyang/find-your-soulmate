@@ -6,13 +6,6 @@ header {
     font-family: Calibri;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px red solid;
-}
-
-p {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: 1px rgb(240, 72, 100) solid;
 }
 
 button {
@@ -62,7 +55,7 @@ h2 {
     gap: 20px;
 }
 .logo-title {
- font-family: Exile;
+    font-family: Exile;
 }
 
 
@@ -335,7 +328,17 @@ li.language-button:hover div {
 
 /* login page */
 div#login-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 90vw;
+    max-width: 90vw;
+    margin: 3rem auto;
+    background: rgb(204, 49, 49);
+}
+@media screen and (orientation: landscape) {
+div#login-section form {
     min-width: 40vw;
     max-width: 60vw;
-    margin: 100px auto;
+}
 }
