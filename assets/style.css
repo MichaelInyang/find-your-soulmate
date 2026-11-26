@@ -97,7 +97,7 @@ header {
     background-color: rgb(204, 49, 49);
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 5px;
     display: flex;
     justify-content: space-between;
 }
