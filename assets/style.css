@@ -316,3 +316,10 @@ section>p {
 
 
 }
+
+/* login page */
+div#login-section form {
+    min-width: 40vw;
+    max-width: 60vw;
+    margin: 100px auto;
+}
