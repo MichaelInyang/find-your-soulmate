@@ -1,18 +1,15 @@
+@font-face {
+    font-family: Exile;
+    src: url("Exile-Regular.ttf"); 
+}
 header {
     font-family: Calibri;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px red solid;
-}
-
-p {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: 1px rgb(240, 72, 100) solid;
 }
 
 button {
-    background-color: rgb(140, 15, 27);
+    background-color: rgba(224, 157, 164, 0.568);
     border: none;
     color: #dc4385;
     padding: 10px 20px;
@@ -37,11 +34,11 @@ ul {
     ;
     height: 90px;
     text-decoration: none;
-    border: 1px red solid;
+    
 }
 
 li a:hover {
-    color: rgb(140, 15, 27);
+    color: rgb(156, 95, 101);
 }
 
 p {
@@ -52,11 +49,13 @@ h2 {
     font-weight: lighter;
 }
 
-div {
+.logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+    flex-direction: row;
+    gap: 20px;
+}
+.logo-title {
+    font-family: Exile;
 }
 
 
@@ -75,10 +74,12 @@ body {
 
 
 header {
-    background-color: #8e2458;
+    background-color: rgb(204, 49, 49);
     color: white;
     text-align: center;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -88,7 +89,6 @@ header h1 {
 
 
 nav {
-    background-color: #42152e;
     text-align: center;
     padding: 15px;
 }
@@ -179,7 +179,7 @@ section>p {
 }
 
 .contact-form button:hover {
-    background-color: #42152e;
+    background-color: #560f36;
 }
 
 
@@ -308,11 +308,37 @@ section>p {
 
     }
 
-    ul {
+   ul  {
         display: flex;
         flex-direction: row;
-
     }
 
 
+}
+
+
+div.language-dropdown {
+    display: none;
+}
+
+li.language-button:hover div {
+    display: block;
+}
+
+
+/* login page */
+div#login-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 90vw;
+    max-width: 90vw;
+    margin: 3rem auto;
+    background: rgb(204, 49, 49);
+}
+@media screen and (orientation: landscape) {
+div#login-section form {
+    min-width: 40vw;
+    max-width: 60vw;
+}
 }
