@@ -6,13 +6,6 @@ header {
     font-family: Calibri;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px red solid;
-}
-
-p {
-    display: flex;
-    flex-direction: column-reverse;
-    background-color: 1px rgb(240, 72, 100) solid;
 }
 
 button {
@@ -54,10 +47,7 @@ p {
 
 h2 {
     font-weight: lighter;
-} 
-
-
-
+}
 
 .logo {
     display: flex;
@@ -65,21 +55,9 @@ h2 {
     gap: 20px;
 }
 .logo-title {
- font-family: Exile;
+    font-family: Exile;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-
-    margin: auto;
-}
 
 * {
     margin: 0;
@@ -116,7 +94,7 @@ nav {
 }
 
 nav a {
-    color: #222;
+    color: white;
     text-decoration: none;
     margin: 15px;
     font-weight: bold;
@@ -125,6 +103,229 @@ nav a {
 nav a:hover {
     color: #ffb6d5;
 }
+
+
+section {
+    padding: 45px 8%;
+}
+
+section h2 {
+    color: #8e2458;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+section>p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+.contact-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-info,
+.contact-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 260px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3,
+.contact-form h3 {
+    color: #8e2458;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.contact-info a {
+    display: inline-block;
+    background-color: #8e2458;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #560f36;
+}
+
+
+#faq {
+    background-color: #fff0f6;
+}
+
+.faq-container {
+    max-width: 850px;
+    margin: auto;
+}
+
+.faq-container details {
+    background-color: white;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 7px;
+    border-left: 4px solid #8e2458;
+}
+
+.faq-container summary {
+    color: #8e2458;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-container de {
+    padding: 25px;
+}
+
+/* PROFILE IMAGE CONTAINER */
+.profile-link {
+    display: block;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+/* ALL PROFILE PICTURES */
+.profile-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 15px;
+}
+
+.card {
+    width: 230px;
+    min-width: 230px;
+    flex-shrink: 0;
+}
+
+.profile-link {
+    display: block;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.profile-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-info {
+    padding: 15px;
+    background: white;
+}
+
+.card-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.card-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    div.me {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+        padding: 15px;
+
+    }
+
+   ul  {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
+
+
+div.language-dropdown {
+    display: none;
+}
+
+li.language-button:hover div {
+    display: block;
+}
+
+
 
 /* contact-us */
 .contact-section {
@@ -140,53 +341,64 @@ nav a:hover {
     text-align: center;
     margin-bottom: 25px;
 }
+.contact-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+details {
+    border-bottom: 1px solid #ddd;
+    padding: 25px 10px;
+}
+summary {
+    font-size: 18px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+summary::after {
+    content: "+";
+    font-size: 23px;
+}
+details[open] summary::after {
+    content: "-";
+}
+details p {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #555;
+}
 /* end of contact-us */
 
 
- /*{
-    background-color: #fff0f6;
-}*/
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    color: #222;
-}
-
-
-header {
+/* login page */
+div#login-section form {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 25px 5%;
+    min-width: 90vw;
+    max-width: 90vw;
+    margin: 3rem auto;
+    background: rgb(204, 49, 49);
 }
-
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
+@media screen and (orientation: landscape) {
+div#login-section form {
+    min-width: 40vw;
+    max-width: 60vw;
 }
-
-nav a {
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
-    font-size: 15px;
-}
-
-
-footer {
-    text-align: center;
-    background-color: #9f6666;
-    color: rgb(78, 36, 36);
-    padding: 25px;
 }
