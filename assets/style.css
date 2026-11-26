@@ -256,17 +256,14 @@ section>p {
     ul {
         display: flex;
         flex-direction: row;
-
+    
     }
-
-    .games1 p{ 
-        background-color: whitesmoke;
-
+     .games1 p{
+         display:"400px", height="400", autoplay="loop";
     } 
     
-    .games1 p{
+    .games2 p{
          display:"400px", height="400", autoplay="loop";
-
     }
 
 }
