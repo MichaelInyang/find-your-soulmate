@@ -329,16 +329,23 @@ li.language-button:hover div {
 /* login page */
 div#login-section form {
     display: flex;
+    color: white;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     min-width: 90vw;
     max-width: 90vw;
-    margin: 3rem auto;
+    margin: 4rem auto;
     background: rgb(204, 49, 49);
 }
+#login-button {
+    width:60%;
+    height:10%;
+    
+}  
+
 @media screen and (orientation: landscape) {
-div#login-section form {
-    min-width: 40vw;
-    max-width: 60vw;
-}
+    div#login-section form {
+        min-width: 40vw;
+        max-width: 60vw;
+    }
 }
