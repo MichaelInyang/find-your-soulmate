@@ -89,7 +89,7 @@ h2 {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color:pink;
     color: #333;
     line-height: 1.6;
 }
@@ -154,7 +154,7 @@ section>p {
 
 .contact-info,
 .contact-form {
-    background-color: white;
+    background-color: pink;
     padding: 25px;
     border-radius: 10px;
     flex: 1;
@@ -175,7 +175,7 @@ section>p {
 .contact-info a {
     display: inline-block;
     background-color: #8e2458;
-    color: white;
+    color: pink;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
@@ -220,7 +220,7 @@ section>p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: pink;
     color: #222;
 }
 
@@ -232,27 +232,23 @@ header {
     padding: 25px 5%;
 }
 
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
-}
 
-nav a {
+
+ul  {
     text-decoration: none;
     color: black;
     margin: 0 10px;
     font-size: 15px;
-}
 
-.login {
-    background-color: #111;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
+
 }
+nav {color: #222;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+ 
+    
+   }
 
 .hero {
     text-align: center;
@@ -323,7 +319,7 @@ details p {
 
 .contact button {
     background-color: #111;
-    color: white;
+    color: pink;
     border: none;
     border-radius: 30px;
     padding: 17px 35px;
