@@ -324,3 +324,10 @@ div.language-dropdown {
 li.language-button:hover div {
     display: block;
 }
+    
+footer{
+        background-color:rgb(204, 49,49) ;
+        color: white;
+        text-align:center;
+        padding:28px
+    }
