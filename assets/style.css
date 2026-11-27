@@ -332,7 +332,7 @@ div.me {
     }
     div.me > div {
         flex: auto;
-        width: 100px;
+        width: 40%;
     }
 
      h2.mi{
