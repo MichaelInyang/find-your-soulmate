@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Exile;
+    src: url("Exile-Regular.ttf"); 
+}
 header {
     font-family: Calibri;
     display: flex;
@@ -12,7 +16,7 @@ p {
 }
 
 button {
-    background-color: rgb(140, 15, 27);
+    background-color: rgba(224, 157, 164, 0.568);
     border: none;
     color: #dc4385;
     padding: 10px 20px;
@@ -37,11 +41,11 @@ ul {
     ;
     height: 90px;
     text-decoration: none;
-    border: 1px red solid;
+    
 }
 
 li a:hover {
-    color: rgb(140, 15, 27);
+    color: rgb(156, 95, 101);
 }
 
 p {
@@ -52,26 +56,21 @@ h2 {
     font-weight: lighter;
 }
 
-div {
+.logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-/* Card Grid */
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
     gap: 20px;
-    padding: 20px;
-
-    margin: auto;
+}
+.logo-title {
+ font-family: Exile;
 }
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -82,10 +81,12 @@ body {
 
 
 header {
-    background-color: #8e2458;
+    background-color: rgb(204, 49, 49);
     color: white;
     text-align: center;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -95,7 +96,6 @@ header h1 {
 
 
 nav {
-    background-color: #42152e;
     text-align: center;
     padding: 15px;
 }
@@ -186,7 +186,7 @@ section>p {
 }
 
 .contact-form button:hover {
-    background-color: #42152e;
+    background-color: #560f36;
 }
 
 
@@ -216,6 +216,68 @@ section>p {
 .faq-container de {
     padding: 25px;
 }
+
+/* PROFILE IMAGE CONTAINER */
+.profile-link {
+    display: block;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+/* ALL PROFILE PICTURES */
+.profile-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 15px;
+}
+
+.card {
+    width: 230px;
+    min-width: 230px;
+    flex-shrink: 0;
+}
+
+.profile-link {
+    display: block;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+
+.card-info {
+    padding: 15px;
+    background: white;
+}
+
+.card-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.card-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+/* end of explore css  */
 
 
 @media (max-width: 600px) {
@@ -248,15 +310,17 @@ section>p {
 
     }
 
-    ul {
+   ul  {
         display: flex;
         flex-direction: row;
 
-    }
+    }  
 }
-footer{
-        background-color:#8e2458 ;
-        color: white;
-        text-align:center;
-        padding:15px;
+
+div.language-dropdown {
+    display: none;
+}
+
+li.language-button:hover div {
+    display: block;
 }
