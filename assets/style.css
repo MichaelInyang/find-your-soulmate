@@ -81,9 +81,25 @@ h2 {
 
 .logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+}
+.logo-title {
+ font-family: Exile;
+}
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
 }
 
 
@@ -326,7 +342,13 @@ section>p {
         display: flex;
         flex-direction: row;
 
-    }
+    }  
+}
 
+div.language-dropdown {
+    display: none;
+}
 
+li.language-button:hover div {
+    display: block;
 }
