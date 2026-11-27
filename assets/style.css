@@ -1,9 +1,4 @@
-@font-face {
-    font-family: Exile;
-    src: url("Exile-Regular.ttf"); 
-}
 header {
-    font-family: Calibri;
     display: flex;
     flex-direction: row;
     border-bottom: 1px red solid;
@@ -48,10 +43,6 @@ li a:hover {
     color: rgb(156, 95, 101);
 }
 
-p {
-    font-family: Calibri;
-}
-
 h2 {
     font-weight: lighter;
 }
@@ -69,20 +60,6 @@ h2 {
 .logo-title {
  font-family: Exile;
 >>>>>>> origin/feat/header
-}
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
 }
 
 
