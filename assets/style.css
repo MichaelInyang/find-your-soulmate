@@ -322,18 +322,13 @@ section>p {
 
 /* landing-page-second-part */
 div.me {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 20px;
-        width: 100%;
-        padding: 15px; 
-    }
-    div.me > div {
-        flex: auto;
-        width: 40%;
-    }
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+div.me > div {
+    padding: 30px;
+}
 
      h2.mi{
                 font-family: Tahoma;
