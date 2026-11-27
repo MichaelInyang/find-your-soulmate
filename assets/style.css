@@ -329,9 +329,13 @@ section>p {
 }
 
 }
+
+
+/* start of footer*/
 footer{
         background-color:rgb(204, 49,49) ;
         color: white;
         text-align:center;
         padding:28px
     }
+        /*end of footer*/
