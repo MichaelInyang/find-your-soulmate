@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-@font-face {
-    font-family: Exile;
-    src: url("Exile-Regular.ttf"); 
-}
-=======
+
 /* general */
 
 :root {
@@ -32,11 +27,15 @@ h3 {
 h4 {
     color: var(--secondary-color);
 }
+
+@font-face {
+    font-family: Exile;
+    src: url("Exile-Regular.ttf");
+}    
 /* end general */
 
 
 
->>>>>>> origin/main
 header {
     display: flex;
     flex-direction: row;
