@@ -311,6 +311,7 @@ section>p {
     }
 }
 
+/* first-landing-page */
 div.me {
         display: flex;
         flex-direction: row;
@@ -333,7 +334,7 @@ div.me {
             p.my{
                 color:rgb(76, 180, 78);
             }
-
+/* End of first-landing-page */
 div.mo {
         display: flex;
         flex-direction: row;
@@ -341,6 +342,7 @@ div.mo {
         align-items: flex-start;
         gap: 20px;
 }
+
 
 div.language-dropdown {
     display: none;
