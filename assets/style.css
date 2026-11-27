@@ -311,7 +311,7 @@ section>p {
     }
 }
 
-/* first-landing-page */
+/* landing-page-second-part */
 div.me {
         display: flex;
         flex-direction: row;
@@ -334,7 +334,7 @@ div.me {
             p.my{
                 color:rgb(76, 180, 78);
             }
-/* End of first-landing-page */
+/* End of landing-page-second-part */
 div.mo {
         display: flex;
         flex-direction: row;
