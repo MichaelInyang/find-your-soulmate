@@ -1,3 +1,4 @@
+
 /* general */
 
 :root {
@@ -26,6 +27,11 @@ h3 {
 h4 {
     color: var(--secondary-color);
 }
+
+@font-face {
+    font-family: Exile;
+    src: url("Exile-Regular.ttf");
+}    
 /* end general */
 
 
@@ -43,7 +49,7 @@ p {
 }
 
 button {
-    background-color: rgb(140, 15, 27);
+    background-color: rgba(224, 157, 164, 0.568);
     border: none;
     color: #dc4385;
     padding: 10px 20px;
@@ -68,30 +74,34 @@ ul {
     ;
     height: 90px;
     text-decoration: none;
-    border: 1px red solid;
+    
 }
 
 li a:hover {
-    color: rgb(140, 15, 27);
+    color: rgb(156, 95, 101);
 }
 
 h2 {
     font-weight: lighter;
 }
 
-div {
+.logo {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+    flex-direction: row;
+    gap: 20px;
+}
+.logo-title {
+ font-family: Exile;
 }
 
 
 header {
-    background-color: #8e2458;
+    background-color: rgb(204, 49, 49);
     color: white;
     text-align: center;
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -101,7 +111,6 @@ header h1 {
 
 
 nav {
-    background-color: #42152e;
     text-align: center;
     padding: 15px;
 }
@@ -192,7 +201,7 @@ section>p {
 }
 
 .contact-form button:hover {
-    background-color: #42152e;
+    background-color: #560f36;
 }
 
 
@@ -263,12 +272,6 @@ section>p {
     overflow: hidden;
 }
 
-.profile-link img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
 
 .card-info {
     padding: 15px;
@@ -287,8 +290,9 @@ section>p {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-}
 
+}
+/* end of explore css  */
 
 
 @media (max-width: 600px) {
@@ -321,21 +325,26 @@ section>p {
 
     }
 
-    ul {
+   ul  {
         display: flex;
         flex-direction: row;
 
-    
+    }  
 }
 
+div.language-dropdown {
+    display: none;
 }
 
 
-/* start of footer*/
+
+li.language-button:hover div {
+    display: block;
+}
+    /* start of footer*/
 footer{
         background-color:rgb(204, 49,49) ;
         color: white;
         text-align:center;
         padding:28px
     }
-        /*end of footer*/
