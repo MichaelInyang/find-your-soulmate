@@ -36,11 +36,6 @@ h4 {
 
 
 
-header {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px red solid;
-}
 
 p {
     display: flex;
@@ -72,7 +67,7 @@ ul {
     margin: 0;
     padding: 0;
     ;
-    height: 90px;
+    
     text-decoration: none;
     
 }
@@ -94,15 +89,19 @@ h2 {
  font-family: Exile;
 }
 
-
+/* start of header */
 header {
     background-color: rgb(204, 49, 49);
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px red solid;
 }
+/* end of header */
 
 header h1 {
     font-size: 35px;
