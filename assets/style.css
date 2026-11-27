@@ -306,3 +306,223 @@ div.language-dropdown {
 li.language-button:hover div {
     display: block;
 }
+ /* reset some default styles */
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fdf8f8;
+      color: #2d3748;
+      margin: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      padding: 16px 40px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #e11d48;
+    }
+    .hero {
+      background: linear-gradient(135deg, #ffe4e6 0%, #fff1f2 100%);
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      color: #9f1239;
+      font-size: 2.2rem;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #4a5568;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 24px 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+      border-left: 5px solid #e11d48;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #1a202c;
+    }
+    .card p {
+      margin-bottom: 0;
+      color: #68504a;
+    }
+    .btn-wrap {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .btn {
+      background-color: #e11d48;
+      color: white;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 600;
+      display: inline-block;
+      /* reset some default styles */
+}
+ /* reset some default styles */
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fdf8f8;
+      color: #2d3748;
+      margin: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      padding: 16px 40px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #e11d48;
+    }
+    .hero {
+      background: linear-gradient(135deg, #ffe4e6 0%, #fff1f2 100%);
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      color: #9f1239;
+      font-size: 2.2rem;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #4a5568;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 24px 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+      border-left: 5px solid #e11d48;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #1a202c;
+    }
+    .card p {
+      margin-bottom: 0;
+      color: #4a5568;
+    }
+    .btn-wrap {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .btn {
+      background-color: #e11d48;
+      color: white;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 600;
+      display: inline-block;
+    /* reset some default styles */
+    }
+  
+       /* reset some default styles */
+    body {
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #fdf8f8;
+      color: #2d3748;
+      margin: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      padding: 16px 40px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #e11d48;
+    }
+    .hero {
+      background: linear-gradient(135deg, #ffe4e6 0%, #fff1f2 100%);
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h1 {
+      margin: 0 0 10px;
+      color: #9f1239;
+      font-size: 2.2rem;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #4a5568;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 24px 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+      border-left: 5px solid #e11d48;
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #1a202c;
+    }
+    .card p {
+      margin-bottom: 0;
+      color: #68504a;
+    }
+    .btn-wrap {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .btn {
+      background-color: #e11d48;
+      color: white;
+      padding: 12px 28px;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: 600;
+      display: inline-block;
+      /* reset some default styles */
+}
+
+  
+  
