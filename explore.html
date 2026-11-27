@@ -22,98 +22,415 @@
   <h2 class="page-title">Explore People Near You</h2>
   <p class="page-subtitle">Swipe, Like or Pass. Find your soulmate.</p>
 
-  <div class="explore-grid">
-    <!-- CARD 1 -->
-    <div class="card">
-      <img src="mike.jpeg" alt="Michael">
-      <div class="card-info">
-        <h3>Michael Inyang, 28</h3>
-        <p>📍 Warri, Delta</p>
-        <p>Football • Music • Foodie</p>
-        <div class="card-buttons">
-          <button class="pass">✖️ Pass</button>
-          <button class="like">❤️ Like</button>
-        </div>
+        <!-- PROFILE CARDS -->
+        <section class="card-container" id="cardContainer">
 
-               
-   
+            <!-- CARD 1 -->
+            <div class="card" data-category="popular nearby">
+
+                <a href="profile.html" class="profile-link">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600" alt="Amara">
+                </a>
+                
+                <div class="card-info">
+                    <h3>Amara, 24</h3>
+                    <p>📍 Lagos</p>
+                    <p>Fashion • Music • Travel</p>
+
+                    <div class="card-buttons">
+                        <button class="pass">✖️ Pass</button>
+                        <button class="like">❤️ Like</button>
+                    </div>
                 </div>
-                <div class="card">
-        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600" alt="Amara">
-        <div class="card-info">
-            <h3>Amara, <span>24</span></h3>
-            <p class="location">📍 Port Harcourt, 2km away</p>
-            <p class="bio">Lover of good music, jollof rice and long walks. Looking for someone to laugh with.</p>
-            <div class="tags"><span>Music</span><span>Foodie</span><span>Travel</span></div>
-        </div>
-        <div class="buttons">
-            <button class="btn-pass">✖️</button>
-            <button class="btn-like">❤️</button>
-        </div>
-    </div>
+            </div>
 
-    
-    users.</p>
-    </body>
+            <!-- CARD 2 -->
+            <div class="card" data-category="new">
 
-</html>   
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Explore - Find Your Soulmate</title>
-<link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
+                <a href="profile.html" class="profile-link">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600" alt="David">
+                </a>
 
-<header class="top-nav">
-  <h1>Find Your Soulmate</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="explore.html" class="active">Explore</a>
-    <a href="games.html">Games</a>
-    <a href="profile.html">Profile</a>
-  </nav>
-</header>
+                <div class="card-info">
+                    <h3>David, 27</h3>
+                    <p>📍 Abuja</p>
+                    <p>Gym • Tech • Cooking</p>
 
-<main>
-  <h2 class="page-title">Explore People Near You</h2>
-  <p class="page-subtitle">Swipe, Like or Pass. Find your soulmate.</p>
-
-  <div class="explore-grid">
-    <!-- CARD 1 -->
-    <div class="card">
-      <img src="mike.jpeg" alt="Michael">
-      <div class="card-info">
-        <h3>Michael Inyang, 28</h3>
-        <p>📍 Warri, Delta</p>
-        <p>Football • Music • Foodie</p>
-        <div class="card-buttons">
-          <button class="pass">✖️ Pass</button>
-          <button class="like">❤️ Like</button>
-        </div>
-
-               
-   
+                    <div class="card-buttons">
+                        <button class="pass">✖️ Pass</button>
+                        <button class="like">❤️ Like</button>
+                    </div>
                 </div>
-                <div class="card">
-        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600" alt="Amara">
-        <div class="card-info">
-            <h3>Amara, <span>24</span></h3>
-            <p class="location">📍 Port Harcourt, 2km away</p>
-            <p class="bio">Lover of good music, jollof rice and long walks. Looking for someone to laugh with.</p>
-            <div class="tags"><span>Music</span><span>Foodie</span><span>Travel</span></div>
-        </div>
-        <div class="buttons">
-            <button class="btn-pass">✖️</button>
-            <button class="btn-like">❤️</button>
-        </div>
-    </div>
+            </div>
 
-    
-    users.</p>
-    <footer>
+            <!-- CARD 3 -->
+            <div class="card" data-category="popular">
+
+                <a href="profile.html" class="profile-link">
+                    <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chioma">
+                </a>
+
+                <div class="card-info">
+                    <h3>Chioma, 25</h3>
+                    <p>📍 Enugu</p>
+                    <p>Fashion • Dancing • Travelling</p>
+
+                    <div class="card-buttons">
+                        <button class="pass">✖️ Pass</button>
+                        <button class="like">❤️ Like</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card" data-category="nearby new">
+
+                <a href="profile.html" class="profile-link">
+                    <img src="https://images.pexels.com/photos/6740138/pexels-photo-6740138.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Tunde">
+                </a>
+
+                <div class="card-info">
+                    <h3>Tunde James, 28</h3>
+                    <p>📍 Warri, Delta</p>
+                    <p>Football • Music • Foodie</p>
+
+                    <div class="card-buttons">
+                        <button class="pass">✖️ Pass</button>
+                        <button class="like">❤️ Like</button>
+                    </div>
+                </div>
+            </div>
+
+
+<!-- CARD 5 -->
+<div class="card" data-category="nearby new">
+  <a href="sarah-profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600" alt="Sarah">
+  </a>
+  <div class="card-info">
+    <h3>Sarah, 24</h3>
+    <p>📍 Lagos</p>
+    <p>Fashion • Music • Travel</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 6 -->
+<div class="card" data-category="popular">
+  <a href="michael-profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600" alt="Michael">
+  </a>
+  <div class="card-info">
+    <h3>Michael, 29</h3>
+    <p>📍 Port Harcourt</p>
+    <p>Business • Football • Fitness</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 7 -->
+<div class="card" data-category="new">
+  <a href="grace-profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600" alt="Grace">
+  </a>
+  <div class="card-info">
+    <h3>Grace, 26</h3>
+    <p>📍 Uyo, Akwa Ibom</p>
+    <p>Cooking • Reading • Movies</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 8 -->
+<div class="card" data-category="nearby popular">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600" alt="Victor">
+  </a>
+  <div class="card-info">
+    <h3>Victor, 30</h3>
+    <p>📍 Benin City</p>
+    <p>Technology • Gym • Travel</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 9 -->
+<div class="card" data-category="new">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600" alt="Amara">
+  </a>
+  <div class="card-info">
+    <h3>Amara, 23</h3>
+    <p>📍 Calabar</p>
+    <p>Photography • Dancing • Art</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 10 -->
+<div class="card" data-category="popular">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?w=600" alt="Joshua">
+  </a>
+  <div class="card-info">
+    <h3>Joshua, 28</h3>
+    <p>📍 Lagos</p>
+    <p>Music • Football • Gaming</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 11 -->
+<div class="card" data-category="nearby">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?w=600" alt="Precious">
+  </a>
+  <div class="card-info">
+    <h3>Precious, 25</h3>
+    <p>📍 Warri, Delta</p>
+    <p>Fashion • Shopping • Food</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 12 -->
+<div class="card" data-category="new">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?w=600" alt="Daniel">
+  </a>
+  <div class="card-info">
+    <h3>Daniel, 27</h3>
+    <p>📍 Asaba</p>
+    <p>Business • Movies • Travel</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 13 -->
+<div class="card" data-category="popular">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600" alt="Nina">
+  </a>
+  <div class="card-info">
+    <h3>Nina, 24</h3>
+    <p>📍 Abuja</p>
+    <p>Modelling • Fitness • Music</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 14 -->
+<div class="card" data-category="nearby new">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600" alt="Kelvin">
+  </a>
+  <div class="card-info">
+    <h3>Kelvin, 31</h3>
+    <p>📍 Owerri</p>
+    <p>Entrepreneurship • Sports • Travel</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 15 -->
+<div class="card" data-category="popular">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=600" alt="Faith">
+  </a>
+  <div class="card-info">
+    <h3>Faith, 26</h3>
+    <p>📍 Enugu</p>
+    <p>Writing • Cooking • Movies</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 16 -->
+<div class="card" data-category="new">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=600" alt="Brian">
+  </a>
+  <div class="card-info">
+    <h3>Brian, 28</h3>
+    <p>📍 Lagos</p>
+    <p>Photography • Coding • Music</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 17 -->
+<div class="card" data-category="nearby">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=600" alt="Esther">
+  </a>
+  <div class="card-info">
+    <h3>Esther, 23</h3>
+    <p>📍 Akure</p>
+    <p>Reading • Fashion • Dancing</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 18 -->
+<div class="card" data-category="popular">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600" alt="Samuel">
+  </a>
+  <div class="card-info">
+    <h3>Samuel, 30</h3>
+    <p>📍 Ibadan</p>
+    <p>Fitness • Business • Football</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 19 -->
+<div class="card" data-category="new">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=600" alt="Bella">
+  </a>
+  <div class="card-info">
+    <h3>Bella, 25</h3>
+    <p>📍 Lagos</p>
+    <p>Beauty • Travel • Shopping</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 20 -->
+<div class="card" data-category="nearby">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600" alt="Andrew">
+  </a>
+  <div class="card-info">
+    <h3>Andrew, 29</h3>
+    <p>📍 Jos</p>
+    <p>Gaming • Technology • Music</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 21 -->
+<div class="card" data-category="popular">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600" alt="Ruth">
+  </a>
+  <div class="card-info">
+    <h3>Ruth, 27</h3>
+    <p>📍 Port Harcourt</p>
+    <p>Cooking • Business • Travel</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 22 -->
+<div class="card" data-category="new">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600" alt="Christian">
+  </a>
+  <div class="card-info">
+    <h3>Christian, 26</h3>
+    <p>📍 Uyo</p>
+    <p>Sports • Reading • Technology</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 23 -->
+<div class="card" data-category="nearby popular">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?w=600" alt="Janet">
+  </a>
+  <div class="card-info">
+    <h3>Janet, 24</h3>
+    <p>📍 Delta</p>
+    <p>Art • Music • Photography</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+<!-- CARD 24 -->
+<div class="card" data-category="new">
+  <a href="profile.html" class="profile-link">
+    <img src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?w=600" alt="Alex">
+  </a>
+  <div class="card-info">
+    <h3>Alex, 28</h3>
+    <p>📍 Kano</p>
+    <p>Entrepreneurship • Fitness • Movies</p>
+    <div class="card-buttons">
+      <button class="pass">✖️ Pass</button>
+      <button class="like">❤️ Like</button>
+    </div>
+  </div>
+</div>
+
+
+        </section>
+
+    </main>
+
+    <script src="explore.js"></script>
+
+</body>
+<footer>
                 <h2> You've Read enough. Go find out</h2>
                 <h3> Social </h3>
                 <a href=>Instagram</a>
@@ -130,9 +447,6 @@
                 <h3>Company</h3>
                 <a href>FAQ</a>
                 <a href=>Destinations</a>
-            <p>Copyright @ 2026 Find My Soulmate</p>
-            </footer>
-    </body>
-    
 
-</html>   
+            </footer>
+</html>
